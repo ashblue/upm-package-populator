@@ -1,6 +1,6 @@
 {
   "name": "upm-package-populator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "create-dist.js",
   "scripts": {
