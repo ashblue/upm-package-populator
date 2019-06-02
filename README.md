@@ -5,7 +5,7 @@ A helper library to cross populate nested Unity packages in a project with NPM d
 Installation
 
 ```bash
-npm i -D ump-package-populator
+npm i -D upm-package-populator
 ```
 
 Example usage
