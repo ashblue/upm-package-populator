@@ -1,6 +1,6 @@
 {
   "name": "upm-package-populator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A helper library to cross populate nested Unity packages in a project with NPM data.",
   "main": "create-dist.js",
   "scripts": {
