@@ -1,13 +1,13 @@
 {
   "name": "upm-package-populator",
   "version": "1.0.1",
-  "description": "",
+  "description": "A helper library to cross populate nested Unity packages in a project with NPM data.",
   "main": "create-dist.js",
   "scripts": {
     "test": "jest"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Ash Blue",
+  "license": "MIT",
   "dependencies": {
     "copy-dir": "^1.1.0",
     "del": "^4.1.1",
@@ -15,5 +15,19 @@
   },
   "devDependencies": {
     "jest": "^24.8.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashblue/upm-package-populator.git"
+  },
+  "keywords": [
+    "unity",
+    "package",
+    "manager",
+    "npm"
+  ],
+  "bugs": {
+    "url": "https://github.com/ashblue/upm-package-populator/issues"
+  },
+  "homepage": "https://github.com/ashblue/upm-package-populator#readme"
 }
