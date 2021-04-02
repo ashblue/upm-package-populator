@@ -90,3 +90,4 @@ typings/
 # Project specific
 tmp
 .idea
+dist/
