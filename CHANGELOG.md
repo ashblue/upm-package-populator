@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/ashblue/upm-package-populator/compare/v1.0.0...v2.0.0) (2021-04-02)
+
+
+### chore
+
+* forcing a breaking a change ([4c6e9c4](https://github.com/ashblue/upm-package-populator/commit/4c6e9c4bc447e2c40f4028946514af15325ca48b))
+
+
+### BREAKING CHANGES
+
+* See CHANGELOG.md in master for full details.
+
 # 1.0.0 (2021-04-02)
 
 
