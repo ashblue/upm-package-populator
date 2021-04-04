@@ -10,6 +10,8 @@ jobs:
           node-version: '14'
       - run: npm install
       - uses: wagoid/commitlint-github-action@v2
+        with:
+          firstParent: true
       - run: npm run lint
       - run: npm run test:coverage
       - run: npm run build
