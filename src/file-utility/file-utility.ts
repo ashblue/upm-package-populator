@@ -1,6 +1,7 @@
-import fs from 'fs';
+import fs, { existsSync } from 'fs';
 
 export const overwriteFile = (fileSrcPath: string, fileTargetPath: string): void => {
+  if (!existsSync(fileSrcPath)) return;
   const content = fs.readFileSync(fileSrcPath);
   fs.writeFileSync(fileTargetPath, content);
 };
