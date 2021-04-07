@@ -29,6 +29,30 @@ describe('fileUtility functions', () => {
 
       expect(newTargetContent).toEqual(srcContent);
     });
+
+    it('should not crash if the file does not exist', async () => {
+      const srcPath = `${tmpFolder}/a.md`;
+      const targetPath = `${tmpFolder}/b.md`;
+
+      await setup();
+
+      overwriteFile(srcPath, targetPath);
+    });
+
+    it('should write the file if the file destination does not exist', async () => {
+      const srcPath = `${tmpFolder}/a.md`;
+      const srcContent = nanoid();
+
+      const targetPath = `${tmpFolder}/b.md`;
+
+      await setup();
+      fs.writeFileSync(srcPath, srcContent);
+
+      overwriteFile(srcPath, targetPath);
+      const newTargetContent = fs.readFileSync(targetPath).toString();
+
+      expect(newTargetContent).toEqual(srcContent);
+    });
   });
 
   describe('overwriteJsonFileFields function', () => {
